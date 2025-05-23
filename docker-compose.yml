@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  enuygun:
+    build: .
+    container_name: wingie-enuygun
+    network_mode: host  # Share host network - required for kubectl port-forward
+    volumes:
+      - ./workspace:/workspace                    # Project files
+      - /var/run/docker.sock:/var/run/docker.sock # Docker access
+      - C:/Users/alican.cagdas/AppData/Roaming/gcloud:/root/.config/gcloud
+    tty: true
+    stdin_open: true
+    restart: unless-stopped

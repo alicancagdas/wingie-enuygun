@@ -1,0 +1,148 @@
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Build and Distribution
+dist/
+build/
+*.zip
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+
+# System Files
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Workspace specific
+workspace.zip
+
+# Kubernetes
+*.kubeconfig
+kubeconfig
+*.pem
+*.key
+*.crt
+*.csr
+*.srl
+*.p12
+*.pfx
+*.keystore
+*.jks
+*.truststore
+*.p8
+*.p7b
+*.p7c
+*.p7s
+*.p7m
+*.p7r
+*.p7x
+*.p7y
+*.p7z
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+.terraform.lock.hcl
+
+# Istio
+*.jwt
+*.jwk
+*.jwks
+*.pem
+*.key
+*.crt
+*.csr
+*.srl
+*.p12
+*.pfx
+*.keystore
+*.jks
+*.truststore
+*.p8
+*.p7b
+*.p7c
+*.p7s
+*.p7m
+*.p7r
+*.p7x
+*.p7y
+*.p7z
+*.p7a
+*.p7d
+*.p7e
+*.p7f
+*.p7g
+*.p7h
+*.p7i
+*.p7j
+*.p7k
+*.p7l
+*.p7m
+*.p7n
+*.p7o
+*.p7p
+*.p7q
+*.p7r
+*.p7s
+*.p7t
+*.p7u
+*.p7v
+*.p7w
+*.p7x
+*.p7y
+*.p7z
+
+# Monitoring
+prometheus/data/
+grafana/data/
+alertmanager/data/
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+*.sqlite-journal
+*.sqlite3-journal
+*.sqlite-shm
+*.sqlite3-shm
+*.sqlite-wal
+*.sqlite3-wal
+
+# Shell scripts
+*.sh
+!install_packages.sh
+!gcloud_container.sh 
