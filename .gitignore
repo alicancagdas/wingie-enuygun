@@ -142,7 +142,3 @@ alertmanager/data/
 *.sqlite-wal
 *.sqlite3-wal
 
-# Shell scripts
-*.sh
-!install_packages.sh
-!gcloud_container.sh 
